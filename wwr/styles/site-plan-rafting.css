@@ -21,6 +21,7 @@
   --nav-hover-link-color: #5DD9C1;
   --nav-hover-background-color: #190933;
 }
+/*Pallete URL:<a href="https://coolors.co/palette/5dd9c1-85ebcd-b084cc-665687-190933" target="_blank">https://coolors.co/palette/5dd9c1-85ebcd-b084cc-665687-190933</a>*/
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;
