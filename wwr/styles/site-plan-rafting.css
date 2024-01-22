@@ -57,3 +57,19 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+div {
+  width: 20px;
+  height: 20px;
+}
+.primary-color {
+  background-color: #190933;
+}
+.secondary-color{
+  background-color: #5DD9C1;
+}
+.accent-1-color {
+  background-color: #665687;
+}
+.accent-2-color{
+  background-color: #85EBCD;
+}
