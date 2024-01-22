@@ -57,8 +57,8 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 div {
-  width: 20px;
-  height: 20px;
+  width: 150px;
+  height: 150px;
 }
 .primary-color {
   background-color: #190933;
