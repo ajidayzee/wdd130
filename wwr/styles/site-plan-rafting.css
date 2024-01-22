@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Saira+Stencil+One&display=swap');
 /* @font-face {
   font-family: 'rock_saltregular';
   src: url('../fonts/rocksalt-webfont.woff2') format('woff2'),
@@ -12,7 +12,7 @@
   --accent1-color: #665687;
   --accent2-color: #85EBCD;
 
-  --heading-font: 'Great Vibes', 'Bradley Hand', cursive;
+  --heading-font: 'Saira Stencil One', 'Bradley Hand', cursive;
   --paragraph-font: 'Roboto', Helvetica, sans-serif;
 
   --nav-background-color: #B084CC;
