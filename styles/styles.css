@@ -52,7 +52,7 @@ footer {
 /* Class Selectors */
  .box{
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgba(0, 0, 0, .1);
     padding: 1 rem;
     background-color: #665687;
     color: #5DD9C1;
