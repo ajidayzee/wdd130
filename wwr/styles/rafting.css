@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Saira+Stencil+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
     --primary-color: #190933;
     --secondary-color: #5DD9C1;
@@ -13,3 +18,17 @@
     --nav-hover-link-color: #5DD9C1;
     --nav-hover-background-color: #190933;
   }
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+h1, article {
+    position: absolute;
+  }
+article img {
+    float: right;
+  }
+article {
+    background-color:  rgba(255, 255, 255, .1);
+}
