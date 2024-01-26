@@ -14,25 +14,36 @@
     --paragraph-font: 'Roboto', Helvetica, sans-serif;
   
     --nav-background-color: #B084CC;
-    --nav-link-color: #85EBCD;
-    --nav-hover-link-color: #5DD9C1;
-    --nav-hover-background-color: #190933;
-  }
+    --nav-link-color: #190933;
+    --nav-hover-link-color: #85EBCD;
+    --nav-hover-background-color: #5DD9C1;
+}
+.hero {
+    position: relative;
+}
 .hero img {
     display: block;
     width: 100%;
     height: auto;
-  }
+}
 h1, article {
     position: absolute;
-  }
+}
 article img {
     float: right;
-  }
+}
 article {
-    background-color:  rgba(255, 255, 255, .1);
+    background-color:  rgba(0, 0, 0, .1);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+p {
+    padding: 20px;
+
   }
+a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
