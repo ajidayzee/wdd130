@@ -17,7 +17,10 @@ h2 {
 
 .herodiv {
 	margin: 10px auto;
-	/* position: relative; If removed, what happens? */
+	position: relative; /* If removed, what happens? */
+    /*The "About Me" section overlay moves to the bottom left of the document instead of the bottom left of the div.herodiv container. 
+    This is because of the principles of using position, the absolute positioned item is feeding off of its ancestors that HAVE a position property.
+    None have that property now so it moves to the default document position.*/
 }
 
 .herodiv img {
