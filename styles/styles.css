@@ -12,7 +12,7 @@ header {
 }
 header, .grid, footer {
     max-width: 840px;
-    margin: auto;
+    margin: 0 auto;
 }
 nav {
     background-color: steelblue;
@@ -76,7 +76,7 @@ footer {
 }
 
 /* Class Selectors */
- .box {
+.box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
