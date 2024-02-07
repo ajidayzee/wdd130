@@ -25,6 +25,7 @@ body {
     --nav-hover-background-color: #5DD9C1;
 }
 header {
+    padding: 0 3rem 0 3rem;
     margin: 2rem auto;
 	display: grid;
 	grid-template-columns: 120px 2fr;
