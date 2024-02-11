@@ -38,7 +38,6 @@ h1 {
 form {
     width: 800px;
     margin: 0 auto;
-    padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
@@ -46,9 +45,8 @@ form {
 
 fieldset {
     display: grid;
-    margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0);
-    padding: 1rem;
+    padding: 2rem;
 }
 
 button {
@@ -68,4 +66,5 @@ button:hover {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: 1fr;
+    padding: .5rem;
 }
