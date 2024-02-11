@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&family=Rubik&display=swap');
+
+:root {
+    --primary-color: #F40FBB;
+    --secondary-color: #3A13E4;
+    --main-color: #13C7DF;
+
+    --heading-font: "Roboto", Helvetica, sans-serif;
+    --main-font: "Rubik";
+    --p-font:"Mooli";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font,--p-font);
+    font-size: 1.2em;
+    color: var(--primary-color);
+    background: var(--main-color);
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+    font-family: var(--heading-font);
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2em;
+    text-align: center;
+}
+
+form {
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(185, 16, 157);
+}
+.question {
+    display: grid;
+    grid-template-columns: 1fr;
+}
