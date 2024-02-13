@@ -62,16 +62,15 @@
         <form name="user-comment">
             <h2>Send Us A Message</h2>
             <fieldset>
-                <label for="name" id="name">Name</label>
+                <label for="name">Name</label>
                 <!-- <legend>Name</legend> -->
-                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
             </fieldset>
             <fieldset>
-                <label for="email" id="email">Email</label>
+                <label for="email">Email</label>
                 <!-- <legend>Email</legend> -->
-                <input type="email" name="email" id="" autocomplete="email" placeholder="Your Email" required>
+                <input type="email" name="email" id="email" autocomplete="email" placeholder="Your Email" required>
             </fieldset>  
-            </fieldset>
             <fieldset>
                 <legend>Select Purpose Of Message:</legend>
                 <input type="radio" id="gi" name="purpose" value="General Inquiry">
@@ -86,7 +85,7 @@
             </fieldset>
             <fieldset>
                 <div>
-                  <input type="checkbox" id="subscribe" name="subscribe" checked />
+                  <input type="checkbox" id="subscribe" name="subscribe" checked/>
                   <label for="subscribe">Please subscribe me to the monthly newsletter</label>
                 </div>
               </fieldset>
