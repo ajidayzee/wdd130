@@ -139,4 +139,11 @@ footer .social-links {
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
+<<<<<<< HEAD
 }
+=======
+}
+.hd {
+display: block;
+}
+>>>>>>> 612ada17c5ec9c30d0bcb7341e5f86414b80e7f4
