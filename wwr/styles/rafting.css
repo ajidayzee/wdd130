@@ -85,15 +85,18 @@ h1, h2, h3, h4, h5, h6 {
 p {
     padding: 20px;
   }
+.con {
+    padding: 0;
+    margin: 35px 0 35px 0;
+} 
+h3 {
+    margin-top: 30px;
+}
 a {
     width: 40px;
     font-weight: 900;
     text-decoration: none;
     color: var(--nav-link-color);
-}
-.social-links a img {
-    width: 20px;
-    text-decoration: none;
 }
 .history div {
     text-align: center;
@@ -143,4 +146,127 @@ footer {
 .ct {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
+}
+section {
+    margin-top: 40px;
+}
+main {
+    display: block;
+}
+.employee-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+main {
+    display: flex;
+}
+.contact{
+    flex-basis: 40%;
+}
+.map {
+    flex-basis: 55%;
+}
+section h2 {
+    text-align: center;
+}
+form {
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    list-style: none;
+}
+form input, form textarea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.contact {
+    flex-basis: 35%;
+}
+.map {
+    flex-basis: 60%;
+}
+.contact p i {
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 12px;
+}
+.social-links a img {
+    width: 20px;
+    text-decoration: none;
+}
+.social-links a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: var(--primary-color);
+    display: inline-block;
+    transition: 0.5s;
+}
+.social-links a:hover{
+    color: var(--nav-hover-link-color);
+    transform: translateY(-5px);
+}
+.credential div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 30px;
+}
+.credential {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.g,.r,.w {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.purpose {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 0 30px 0 30px;
+}
+.purpose div {
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 1.5fr 1fr 1.5fr 1fr 1.5fr;
+    align-items: center;
+
+} 
+.message {
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: 0 30px 0 30px;
+}
+.sub {
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
+}
+button {
+    text-align: center;
+    margin: 1rem;
+    margin-left: 38%;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+.cm {
+    text-align: center;
+    margin-top: 35px;
+}
+.cs {
+    text-align: center;
 }
