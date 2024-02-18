@@ -104,15 +104,13 @@ a {
 .history {
     display: flex;
 }
-.adventure {
+.adventure-plc{
     display: grid;
     grid-gap: 1em;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 .adventure h2 {
-    justify-self: center;
-    align-self: center;
-    grid-column: span 6;
+    margin: 20px 0 30px 0;
 }
 figure {
     border: thin #c0c0c0 solid;
@@ -122,7 +120,14 @@ figure {
     max-width: 220px;
     margin: auto;
 }
-  
+.fg {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 160px;
+    margin: auto;
+}
 .adventure figure img {
     max-width: 220px;
     max-height: 150px;
@@ -139,6 +144,9 @@ footer .social-links {
     justify-self: flex-end;
     align-self: center;
 }
+footer .social-links a {
+    width: 20px;
+}
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -150,15 +158,12 @@ footer {
 .month {
     margin-top: 40px;
 }
-main {
-    display: block;
-}
 .employee-img {
     display: flex;
     justify-content: space-between;
     padding: 80px;
 }
-main {
+.abt {
     display: flex;
 }
 .contact{
