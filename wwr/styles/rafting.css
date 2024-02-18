@@ -175,15 +175,17 @@ form {
     margin: 0 auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
-    background-color: #eee;
+    background-color: var(--accent2-color);
     list-style: none;
 }
 form input, form textarea{
     width: 100%;
+    background: #a09d9da8;
     outline: none;
     border: 0;
     padding: 15px;
     margin: 15px 0;
+    color: #fff;
     font-size: 18px;
     border-radius: 6px;
 }
@@ -193,10 +195,10 @@ form input, form textarea{
 .map {
     flex-basis: 60%;
 }
-.contact p i {
+.contact .links p i {
     color: var(--primary-color);
     margin-right: 10px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .social-links a img {
     width: 20px;
@@ -238,7 +240,7 @@ form input, form textarea{
 .purpose div {
     width: 100%;
     display: grid;
-    grid-template-columns:1fr 1.5fr 1fr 1.5fr 1fr 1.5fr;
+    grid-template-columns:.2fr 1.5fr .2fr 1.5fr .2fr 1.5fr;
     align-items: center;
 
 } 
@@ -249,13 +251,13 @@ form input, form textarea{
 .sub {
     border: 1px solid rgba(0, 0, 0, 0);
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: .7fr 6fr;
     align-items: center;
 }
 button {
     text-align: center;
     margin: 1rem;
-    margin-left: 38%;
+    margin-left: 40%;
     background-color: var(--primary-color);
     color: #ffffff;
     border: none;
