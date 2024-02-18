@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -17,7 +20,7 @@ body {
     --accent2-color: #85EBCD;
   
     --heading-font: 'Saira Stencil One', 'Bradley Hand', sans-serif;
-    --paragraph-font: 'Roboto', Helvetica, sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
   
     --nav-background-color: #B084CC;
     --nav-link-color: #190933;
@@ -259,10 +262,10 @@ form input, form textarea{
     grid-template-columns: .7fr 6fr;
     align-items: center;
 }
-button {
+.btn {
     text-align: center;
     margin: 1rem;
-    margin-left: 40%;
+    margin-left: 43%;
     background-color: var(--primary-color);
     color: #ffffff;
     border: none;
@@ -280,4 +283,39 @@ button {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
+}
+.discount {
+    background-color: #0000001c;
+    display: block;
+    text-align: center;
+    height: 150px;
+}
+.btc {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.li {
+    line-height: 50px;
+}
+.pur {
+    display: block;
+    text-align: center;
+}
+.pose {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.po {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 380px;
+    margin: auto;
+    border-radius: 10px;
 }
