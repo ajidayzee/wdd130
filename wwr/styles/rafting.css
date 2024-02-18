@@ -147,7 +147,7 @@ footer {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
 }
-section {
+.month {
     margin-top: 40px;
 }
 main {
@@ -271,4 +271,8 @@ button {
 }
 .cs {
     text-align: center;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
 }
