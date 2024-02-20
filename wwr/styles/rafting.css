@@ -50,11 +50,6 @@ header img {
 	color: var(--nav-link-color);
 	text-decoration: none;
 } 
-.navigation a:hover {
-	color: var(--nav-hover-link-color);
-	font-weight: 900;
-	text-decoration: underline;
-}
 .hero {
     position: relative;
 }
